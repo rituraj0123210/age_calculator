@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+android:background="@color/teal_200"
+    android:padding="15dp"
+    >
+
+    <TextView
+        android:layout_width="223dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/recbg"
+        android:gravity="center_horizontal"
+        android:text="Calculate your Age in minutes"
+
+
+        android:textColor="@color/textred"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+
+
+
+
+    <Button
+        android:id="@+id/btndatepicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+android:backgroundTint="@color/headercolor"
+        android:textColor="@color/white"
+        android:text="Select Date"
+        android:layout_marginTop="20dp"
+        />
+
+
+   <TextView
+       android:id="@+id/tvSelectedDate"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="20dp"
+       android:text=" 31.04.2005 "
+       android:textColor="@color/textred"
+       android:textSize="20sp"
+       android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:text=" Selected Date "
+        android:textColor="@color/lightgrey"
+        android:textStyle="italic"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvAgeInMinutes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text=" 000000 "
+        android:textColor="@color/textred"
+        android:textStyle="italic"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:text=" Selected Date "
+        android:textColor="@color/lightgrey"
+        android:textStyle="italic"
+        android:textSize="20sp" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:text="Made by Rituraj Yadav"
+        android:textColor="@color/textred"
+        android:textStyle="bold"
+        android:textSize="24sp" />
+
+</LinearLayout>
